@@ -1,0 +1,53 @@
+h1 {
+    color: lime;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    background-color: mediumblue;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: lime;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    background-color: mediumblue;
+}
+
+p,h2{
+    text-align: center;
+}
+.header *{
+    border:solid;
+}
+
+.item {
+    position:relative;
+    background-color: aqua;
+}
+
+.item p{
+    position:absolute; 
+    top:90%;
+    left:10%;
+    background-color: red;
+}
+
